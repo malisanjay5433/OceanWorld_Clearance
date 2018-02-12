@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041EBCAC9D64655C749AD0EB /* Pods_OceanWorld_Clearance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2953CCF33C78F986121009E5 /* Pods_OceanWorld_Clearance.framework */; };
 		9BA676F42029D7DD00C27462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA676F32029D7DD00C27462 /* AppDelegate.swift */; };
-		9BA676F62029D7DD00C27462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA676F52029D7DD00C27462 /* ViewController.swift */; };
+		9BA676F62029D7DD00C27462 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA676F52029D7DD00C27462 /* NotificationsViewController.swift */; };
 		9BA676F92029D7DD00C27462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA676F72029D7DD00C27462 /* Main.storyboard */; };
 		9BA676FC2029D7DD00C27462 /* OceanWorld_Clearance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA676FA2029D7DD00C27462 /* OceanWorld_Clearance.xcdatamodeld */; };
 		9BA676FE2029D7DD00C27462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA676FD2029D7DD00C27462 /* Assets.xcassets */; };
 		9BA677012029D7DD00C27462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA676FF2029D7DD00C27462 /* LaunchScreen.storyboard */; };
+		9BA677092029E4C300C27462 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA677082029E4C300C27462 /* HomeViewController.swift */; };
+		9BA6770B2029E4CC00C27462 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6770A2029E4CC00C27462 /* ProfileViewController.swift */; };
+		9BA6770D2029E51700C27462 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6770C2029E51700C27462 /* UIColor.swift */; };
+		9BA67715202AF65000C27462 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA67714202AF65000C27462 /* NotificationCell.swift */; };
+		9BA67717202AFA8500C27462 /* AppLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA67716202AFA8500C27462 /* AppLoader.swift */; };
+		9BA67719202AFDE400C27462 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA67718202AFDE400C27462 /* RoundedView.swift */; };
+		9BA6771B202B0E0B00C27462 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6771A202B0E0B00C27462 /* RoundedButton.swift */; };
+		9BA6771D202B0F5300C27462 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6771C202B0F5300C27462 /* RoundedImage.swift */; };
+		9BA6771F202B158800C27462 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6771E202B158800C27462 /* SignUPViewController.swift */; };
+		9BA67721202B1B4900C27462 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA67720202B1B4900C27462 /* RoundedTextField.swift */; };
+		9BA67724202B268700C27462 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA67723202B268700C27462 /* DataManager.swift */; };
+		9BBF4333203174DB003ECEBC /* UserDefaultDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF4332203174DB003ECEBC /* UserDefaultDetails.swift */; };
+		9BBF43352031775B003ECEBC /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF43342031775B003ECEBC /* NavigationControllers.swift */; };
+		9BBF433720317AD4003ECEBC /* ShowAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF433620317AD4003ECEBC /* ShowAlertView.swift */; };
+		9BBF433920319DCC003ECEBC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF433820319DCC003ECEBC /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2953CCF33C78F986121009E5 /* Pods_OceanWorld_Clearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OceanWorld_Clearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D46EB28B9A51AD02F2B644 /* Pods-OceanWorld_Clearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanWorld_Clearance.release.xcconfig"; path = "Pods/Target Support Files/Pods-OceanWorld_Clearance/Pods-OceanWorld_Clearance.release.xcconfig"; sourceTree = "<group>"; };
 		9BA676F02029D7DD00C27462 /* OceanWorld_Clearance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OceanWorld_Clearance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA676F32029D7DD00C27462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BA676F52029D7DD00C27462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BA676F52029D7DD00C27462 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		9BA676F82029D7DD00C27462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA676FB2029D7DD00C27462 /* OceanWorld_Clearance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OceanWorld_Clearance.xcdatamodel; sourceTree = "<group>"; };
 		9BA676FD2029D7DD00C27462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA677002029D7DD00C27462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA677022029D7DD00C27462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA677082029E4C300C27462 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9BA6770A2029E4CC00C27462 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9BA6770C2029E51700C27462 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		9BA67714202AF65000C27462 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		9BA67716202AFA8500C27462 /* AppLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoader.swift; sourceTree = "<group>"; };
+		9BA67718202AFDE400C27462 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		9BA6771A202B0E0B00C27462 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		9BA6771C202B0F5300C27462 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		9BA6771E202B158800C27462 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		9BA67720202B1B4900C27462 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		9BA67723202B268700C27462 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9BBF4332203174DB003ECEBC /* UserDefaultDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDetails.swift; sourceTree = "<group>"; };
+		9BBF43342031775B003ECEBC /* NavigationControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		9BBF433620317AD4003ECEBC /* ShowAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertView.swift; sourceTree = "<group>"; };
+		9BBF433820319DCC003ECEBC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D69A6DB452AFAD54E1134C8D /* Pods-OceanWorld_Clearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanWorld_Clearance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OceanWorld_Clearance/Pods-OceanWorld_Clearance.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041EBCAC9D64655C749AD0EB /* Pods_OceanWorld_Clearance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9301A0399F5DB7FBB1898DB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D69A6DB452AFAD54E1134C8D /* Pods-OceanWorld_Clearance.debug.xcconfig */,
+				47D46EB28B9A51AD02F2B644 /* Pods-OceanWorld_Clearance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9BA676E72029D7DC00C27462 = {
 			isa = PBXGroup;
 			children = (
 				9BA676F22029D7DD00C27462 /* OceanWorld_Clearance */,
 				9BA676F12029D7DD00C27462 /* Products */,
+				9301A0399F5DB7FBB1898DB7 /* Pods */,
+				DE62558A9AC7181AB48D8DCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,86 @@
 		9BA676F22029D7DD00C27462 /* OceanWorld_Clearance */ = {
 			isa = PBXGroup;
 			children = (
-				9BA676F32029D7DD00C27462 /* AppDelegate.swift */,
-				9BA676F52029D7DD00C27462 /* ViewController.swift */,
-				9BA676F72029D7DD00C27462 /* Main.storyboard */,
+				9BA67722202B266100C27462 /* ApiRequest */,
+				9BA677132029E6C100C27462 /* AppDelegate */,
+				9BA677122029E6BA00C27462 /* Helper */,
+				9BA677112029E6A600C27462 /* Model */,
+				9BA677102029E69900C27462 /* View */,
+				9BA6770E2029E67F00C27462 /* Controller */,
 				9BA676FD2029D7DD00C27462 /* Assets.xcassets */,
-				9BA676FF2029D7DD00C27462 /* LaunchScreen.storyboard */,
 				9BA677022029D7DD00C27462 /* Info.plist */,
-				9BA676FA2029D7DD00C27462 /* OceanWorld_Clearance.xcdatamodeld */,
 			);
 			path = OceanWorld_Clearance;
+			sourceTree = "<group>";
+		};
+		9BA6770E2029E67F00C27462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BA676F52029D7DD00C27462 /* NotificationsViewController.swift */,
+				9BA677082029E4C300C27462 /* HomeViewController.swift */,
+				9BA6770A2029E4CC00C27462 /* ProfileViewController.swift */,
+				9BA67714202AF65000C27462 /* NotificationCell.swift */,
+				9BA6771E202B158800C27462 /* SignUPViewController.swift */,
+				9BBF433820319DCC003ECEBC /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BA677102029E69900C27462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA676F72029D7DD00C27462 /* Main.storyboard */,
+				9BA676FF2029D7DD00C27462 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BA677112029E6A600C27462 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BA676FA2029D7DD00C27462 /* OceanWorld_Clearance.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BA677122029E6BA00C27462 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF4332203174DB003ECEBC /* UserDefaultDetails.swift */,
+				9BBF43342031775B003ECEBC /* NavigationControllers.swift */,
+				9BA6770C2029E51700C27462 /* UIColor.swift */,
+				9BA67716202AFA8500C27462 /* AppLoader.swift */,
+				9BA67718202AFDE400C27462 /* RoundedView.swift */,
+				9BA6771A202B0E0B00C27462 /* RoundedButton.swift */,
+				9BA6771C202B0F5300C27462 /* RoundedImage.swift */,
+				9BA67720202B1B4900C27462 /* RoundedTextField.swift */,
+				9BBF433620317AD4003ECEBC /* ShowAlertView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9BA677132029E6C100C27462 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9BA676F32029D7DD00C27462 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9BA67722202B266100C27462 /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9BA67723202B268700C27462 /* DataManager.swift */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		DE62558A9AC7181AB48D8DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2953CCF33C78F986121009E5 /* Pods_OceanWorld_Clearance.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA677052029D7DD00C27462 /* Build configuration list for PBXNativeTarget "OceanWorld_Clearance" */;
 			buildPhases = (
+				EC5EF578610F85AD160FF3FB /* [CP] Check Pods Manifest.lock */,
 				9BA676EC2029D7DD00C27462 /* Sources */,
 				9BA676ED2029D7DD00C27462 /* Frameworks */,
 				9BA676EE2029D7DD00C27462 /* Resources */,
+				EBBF8233D4F60BA9936A3C36 /* [CP] Embed Pods Frameworks */,
+				9FC77C0A447D01E4D71BAD56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +254,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FC77C0A447D01E4D71BAD56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OceanWorld_Clearance/Pods-OceanWorld_Clearance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBF8233D4F60BA9936A3C36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OceanWorld_Clearance/Pods-OceanWorld_Clearance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OceanWorld_Clearance/Pods-OceanWorld_Clearance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5EF578610F85AD160FF3FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OceanWorld_Clearance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BA676EC2029D7DD00C27462 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9BA676FC2029D7DD00C27462 /* OceanWorld_Clearance.xcdatamodeld in Sources */,
-				9BA676F62029D7DD00C27462 /* ViewController.swift in Sources */,
+				9BA6771B202B0E0B00C27462 /* RoundedButton.swift in Sources */,
+				9BBF4333203174DB003ECEBC /* UserDefaultDetails.swift in Sources */,
+				9BA6770D2029E51700C27462 /* UIColor.swift in Sources */,
+				9BA67721202B1B4900C27462 /* RoundedTextField.swift in Sources */,
+				9BA67719202AFDE400C27462 /* RoundedView.swift in Sources */,
+				9BA67717202AFA8500C27462 /* AppLoader.swift in Sources */,
+				9BA676F62029D7DD00C27462 /* NotificationsViewController.swift in Sources */,
+				9BA6770B2029E4CC00C27462 /* ProfileViewController.swift in Sources */,
 				9BA676F42029D7DD00C27462 /* AppDelegate.swift in Sources */,
+				9BA6771F202B158800C27462 /* SignUPViewController.swift in Sources */,
+				9BA677092029E4C300C27462 /* HomeViewController.swift in Sources */,
+				9BA6771D202B0F5300C27462 /* RoundedImage.swift in Sources */,
+				9BBF43352031775B003ECEBC /* NavigationControllers.swift in Sources */,
+				9BBF433920319DCC003ECEBC /* SignInViewController.swift in Sources */,
+				9BA67724202B268700C27462 /* DataManager.swift in Sources */,
+				9BBF433720317AD4003ECEBC /* ShowAlertView.swift in Sources */,
+				9BA67715202AF65000C27462 /* NotificationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +471,7 @@
 		};
 		9BA677062029D7DD00C27462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69A6DB452AFAD54E1134C8D /* Pods-OceanWorld_Clearance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +487,7 @@
 		};
 		9BA677072029D7DD00C27462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D46EB28B9A51AD02F2B644 /* Pods-OceanWorld_Clearance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
